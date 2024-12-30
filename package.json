@@ -1,0 +1,34 @@
+{
+  "name": "retell-service",
+  "version": "1.0.0",
+  "description": "Phone agent for The Color Bar Salon",
+  "main": "./src/server.js",
+  "scripts": {
+    "build": "tsc",
+    "start:dev": "ts-node -r tsconfig-paths/register src/server.ts"
+  },
+  "author": "Emman Jay Dizon",
+  "license": "MIT",
+  "dependencies": {
+    "@types/express-ws": "^3.0.5",
+    "@types/ws": "^8.5.13",
+    "axios": "^1.7.9",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-ws": "^5.0.2",
+    "joi": "^17.13.3",
+    "openai": "^4.77.0",
+    "retell-sdk": "^4.11.0",
+    "winston": "^3.17.0",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.10.2",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.7.2"
+  }
+}
