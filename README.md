@@ -51,9 +51,10 @@ yarn start:dev
 1. Ensure your React application is running
 2. Provide the Agent ID in your configuration
    ```javascript
-   const AGENT_ID = 'your_agent_id_here';
+   const agentId = 'your_agent_id_here';
    ```
 3. Test the voice interaction through your React interface
+4. Code for the React application [react-app](https://github.com/RetellAI/retell-frontend-reactjs-demo/tree/main/frontend_demo)
 
 
 ## Local Development with ngrok
